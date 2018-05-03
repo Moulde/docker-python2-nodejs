@@ -6,28 +6,23 @@
 - Node: 8.x
 - npm: 5.x
 - yarn: stable
-- Python: latest
+- Python: 2.7.14
 - pip: 9.x
 
 ----
 ### Pull from Docker Hub
 ```
-docker pull nikolaik/python-nodejs:latest
+docker pull malteautopi/python2-nodejs:latest
 ```
 
 ### Build from GitHub
 ```
-docker build -t nikolaik/python-nodejs github.com/nikolaik/docker-python-nodejs
+docker build -t malteautopi/python2-nodejs github.com/Moulde/docker-python2-nodejs
 ```
 
 ### Run image
 ```
-docker run -it nikolaik/python-nodejs bash
-```
-
-### Use as base image
-```Dockerfile
-FROM nikolaik/python-nodejs:latest
+docker run -it malteautopi/python2-nodejs bash
 ```
 
 ## Disclaimer
