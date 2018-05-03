@@ -1,5 +1,4 @@
-FROM python:latest
-MAINTAINER Nikolai R Kristiansen <nikolaik@gmail.com>
+FROM python:2.7.14
 
 # Install node prereqs, nodejs and yarn
 # Ref: https://deb.nodesource.com/setup_8.x
