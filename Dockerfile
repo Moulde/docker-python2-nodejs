@@ -1,4 +1,4 @@
-FROM python:2.7.14
+FROM python:3.6-stretch
 
 # Install node prereqs, nodejs and yarn
 # Ref: https://deb.nodesource.com/setup_8.x
